@@ -23,6 +23,39 @@ II. Answer the following question. What does this do?
 13. du -sk /home/* | sort -r -n | head -10
 14. sort -r names.txt
 
+Answers:
+1. Lists all the files begining with an uppercase letter of the alphabet 
+
+2. Supposed to copy all the *.sh (shell) type files to the temporary files directory
+
+3. Gives information help page about the pwd comand and displays its command arguments and there functions.
+
+4. Comand to send user back to their starting home directory
+
+5. Creates the directories test1, test2, and test 3 if they are not yet in exisitence.
+
+6. Recursively copies the contents of tmp to the bash.
+
+7. Sends the output of ls command through pipeline to the less command which results in the less command printing
+the names of the contents of ls to the screen
+
+8. Takes the first 24 lines in test.txt and appends it to the abc.txt file
+
+9. Prints the string "aaa" into the file aaa.txt (will create aaa.txt if it does not exisit and will override if it does)
+
+10. Checks to see if any USER oriented programs named sallesina are running at that current time.
+
+11. Displays system summary and current tasks being managed by the linux kernal at that time.
+
+12. Takes output of ls (all avaible directories/files) names and sends the names into grep. Grep then will search the shell for 
+these specific directories or files and send located ones as input to xargs mv /tmp command which adds the files output by grep to the
+tmp folder.
+
+13. Places all item names wihtin the home directory into a script then reverses the order of the lines and sorts them based on numerically.
+Finally, prints the first ten lines of the sorted script.
+
+14. Takes the contents of names.txt and sorts them in reverse order by line.
+
 **IMPORTANT** 
 To submit your answers you must do the following:
 - Login into hoffman.
