@@ -23,7 +23,7 @@ II. Answer the following question. What does this do?
 13. du -sk /home/* | sort -r -n | head -10
 14. sort -r names.txt
 
-Answers:
+Answers to above:
 1. Lists all the files begining with an uppercase letter of the alphabet 
 
 2. Supposed to copy all the *.sh (shell) type files to the temporary files directory
