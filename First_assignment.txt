@@ -25,36 +25,50 @@ II. Answer the following question. What does this do?
 
 Answers to above:
 1. Lists all the files begining with an uppercase letter of the alphabet 
+# Correct!
 
 2. Supposed to copy all the *.sh (shell) type files to the temporary files directory
+# Correct!
 
 3. Gives information help page about the pwd comand and displays its command arguments and there functions.
+# Correct!
 
 4. Comand to send user back to their starting home directory
+# Correct!
 
 5. Creates the directories test1, test2, and test 3 if they are not yet in exisitence.
+# Correct!
 
 6. Recursively copies the contents of tmp to the bash.
+# Correct!
 
 7. Sends the output of ls command through pipeline to the less command which results in the less command printing
 the names of the contents of ls to the screen
+# Correct!
 
 8. Takes the first 24 lines in test.txt and appends it to the abc.txt file
+# Correct!
 
 9. Prints the string "aaa" into the file aaa.txt (will create aaa.txt if it does not exisit and will override if it does)
+# Correct!
 
 10. Checks to see if any USER oriented programs named sallesina are running at that current time.
+# Correct! Try it with your username in Hoffman
 
 11. Displays system summary and current tasks being managed by the linux kernal at that time.
+# Correct! Try it in Hoffman
 
 12. Takes output of ls (all avaible directories/files) names and sends the names into grep. Grep then will search the shell for 
 these specific directories or files and send located ones as input to xargs mv /tmp command which adds the files output by grep to the
 tmp folder.
+# Correct!
 
 13. Places all item names wihtin the home directory into a script then reverses the order of the lines and sorts them based on numerically.
 Finally, prints the first ten lines of the sorted script.
+# Correct!
 
 14. Takes the contents of names.txt and sorts them in reverse order by line.
+# Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
